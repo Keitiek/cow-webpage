@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	width: 100%;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	padding: 25px 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+li a:hover:not(.active) {
+	text-decoration: underline;
+	color: blue;
+}
+
+li img {
+	position: absolute;
+	left: 10px;
+}
+
+
+
+.full-image-with-text {
+    position: relative;
+    color: white;
+}
+
+.image-text{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    width: 40%;
+}
+
+.image-text h1{
+    text-transform: uppercase;
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.products{
+ margin: 20px 0px 0px 20px ;
+}
+
+
+
+.headline p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+.h3{
+    margin: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 5% ;
+    gap: 10px 10px; 
+    grid-area: box box box box box box;       
+}
+
+
+.box {
+    border: 1px solid gray;
+    padding: 5px; 
+    margin: 0px 15px 30px 0px; 
+    border-radius: 5px; 
+} 
+
+.box_text p {
+    display: inline;
+    padding-left: 5px;
+} 
+
+.box_text i {
+    color: green;
+} 
+
+.text{
+    text-align: left;
+    margin: 0px;
+
+}
+.btn-group button   {
+    float: left;
+    padding: 5px 12px; 
+    border-radius: 4px;
+    margin: 0px 3px;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.whislist button{
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
+
+.basket button{
+    color: white;
+    background-color: blue;
+    border-color: none;
+
+}
+
+.box img{
+
+    width: 100%;
+    height: auto;
+}
+
+.contact{
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 1px 0 ;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .container {
+    width: 50%;
+    margin: 10% 25%   ;
+
+  }
