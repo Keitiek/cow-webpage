@@ -39,17 +39,16 @@ li img {
 	left: 10px;
 }
 
-
-
 .full-image-with-text {
     position: relative;
     color: white;
+    font-size: large;
 }
 
 .image-text{
     position: absolute;
-    bottom: 100px;
-    left: 30px;
+    bottom: 30%;
+    left: 10%;
     width: 40%;
 }
 
@@ -64,69 +63,76 @@ li img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-.products{
- margin: 20px 0px 0px 20px ;
-}
-
-.headline p{
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 .headline span{
-    font-size: 50px;
+    font-size: 100px;
     text-transform: none;
     font-weight: normal;
 }
 
-.heading{
-    font-size: 20px;
-}
-
-
-.text span{
+.headline p{
+    font-size: 40px;
+    margin-left: 40px;
+    text-transform: uppercase;
     font-weight: bold;
+    line-height: normal;
 }
+
+
+
+
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 5% ;
-    gap: 10px 10px; 
-    grid-area: box box box box box box;       
+    grid-template-columns: repeat(3, 1fr) ;
+    padding: 0% 10% 5% 10%;
+    gap: 50px 50px;     
 }
 
 
 .box {
     border: 1px  gray;
-    padding: 5px; 
-    margin: 0px 15px 30px 0px; 
+    padding: 10px; 
     border-radius: 5px; 
     box-shadow: 2px 10px 15px grey;
 } 
 
+
 .box_text p {
     display: inline;
     padding-left: 5px;
+
 } 
 
 .box_text i {
     color: green;
 } 
 
-.text{
-    text-align: left;
-    margin: 0px;
 
+.box img{
+
+    width: 100%;
+    height: auto;
 }
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub_text, .heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text p{
+    color: gray;
+}
+
 .btn-group button   {
     float: left;
-    padding: 15px 80px; 
+    padding: 15px 20px; 
     border-radius: 5px;
-    margin: 0px 10px;
+    text-transform: uppercase;
 }
 
 .btn-group:after {
@@ -136,6 +142,7 @@ li img {
 }
   
 .whislist button{
+    width: 50%;
     color: gray;
     background-color: white;
     border-color: gray;
@@ -143,15 +150,10 @@ li img {
 
 .basket button{
     color: white;
-    background-color: blue;
+    width: 50%;
+    background-color: rgb(33, 178, 226);
     border-color: none;
     box-shadow: 2px 10px 15px grey;
-}
-
-.box img{
-
-    width: 100%;
-    height: auto;
 }
 
 .contact{
@@ -169,9 +171,13 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 1px;
-    resize: vertical;
+    resize: none;
   }
-  
+
+  textarea {
+    height: 300px;
+  }
+
   input[type=submit] {
     background-color: #4CAF50;
     color: white;
