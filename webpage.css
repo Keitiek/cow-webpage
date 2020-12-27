@@ -53,8 +53,10 @@ li img {
     width: 40%;
 }
 
-.image-text h1{
+.image-text span{
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 80px;
 }
 
 .img {
@@ -68,20 +70,25 @@ li img {
  margin: 20px 0px 0px 20px ;
 }
 
-
-
 .headline p{
     text-transform: uppercase;
     font-weight: bold;
 }
 
-
-
-
-.h3{
-    margin: 0;
+.headline span{
+    font-size: 50px;
+    text-transform: none;
+    font-weight: normal;
 }
 
+.heading{
+    font-size: 20px;
+}
+
+
+.text span{
+    font-weight: bold;
+}
 
 .grid-container {
     display: grid;
@@ -94,10 +101,11 @@ li img {
 
 
 .box {
-    border: 1px solid gray;
+    border: 1px  gray;
     padding: 5px; 
     margin: 0px 15px 30px 0px; 
     border-radius: 5px; 
+    box-shadow: 2px 10px 15px grey;
 } 
 
 .box_text p {
@@ -116,9 +124,9 @@ li img {
 }
 .btn-group button   {
     float: left;
-    padding: 5px 12px; 
-    border-radius: 4px;
-    margin: 0px 3px;
+    padding: 15px 80px; 
+    border-radius: 5px;
+    margin: 0px 10px;
 }
 
 .btn-group:after {
@@ -137,7 +145,7 @@ li img {
     color: white;
     background-color: blue;
     border-color: none;
-
+    box-shadow: 2px 10px 15px grey;
 }
 
 .box img{
@@ -178,6 +186,7 @@ input[type=text], select, textarea {
   
   .container {
     width: 50%;
-    margin: 10% 25%   ;
+    margin: 10% 25% ;
+    color: white;
 
   }
